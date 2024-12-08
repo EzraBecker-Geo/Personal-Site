@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Network Analysis">
+    <title>Working with Local Meta Andesite (LMLD)</title>
+    <style>
+        /* General Reset */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background: #f9f9f9;
+        }
+        h1, h2, h3 {
+            margin: 0;
+            color: #222;
+        }
+        a {
+            color: #0078D4;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+        }
+        header {
+            background: #0078D4;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .content {
+            margin: 40px 0;
+        }
+        .content p {
+            font-size: 1.1em;
+            margin: 20px 0;
+        }
+        footer {
+            margin: 40px 0;
+            font-size: 0.9em;
+            color: #555;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Working with Local Meta Andesite</h1>
+            <p>I use a variety of tools, including saws, grinders, and rotary devices, to shape rocks for diverse purposes.
+My backyard is filled with exceptionally hard meta-andesite boulders, which present a significant challenge to work with. </p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="content">
+            <h2>Origins of the Meta Andesite I use</h2>
+            <p>
+             The Carolina terrane originated as a volcanic island arc during the late Precambrian to early Paleozoic, formed above a subduction zone in an oceanic setting. 
+                It collided and accreted to the eastern margin of Laurentia, contributing to the formation of the Appalachian Mountains. 
+            </p>
+
+           
+
+           
+            <h2>Gallery</h2>
+            <p>
+                Here are some of the things I've done with the rocks from my yard:
+            </p>
+
+             <p>
+                    This project is an alcohol burner for ambiance. I first took a boulder and cut it into a 3" thick slab. 
+                 Then I applied an O-shaped template and carved out a trough to a depth of 1".   
+                </p>
+            <div>
+               <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+    <img src="https://raw.githubusercontent.com/EzraBecker-Geo/Personal-Site/main/MetaAndesite/burner0.jpg" 
+         alt="Meta andesite block" 
+         style="width:30%; max-width:300px;">
+    <img src="https://raw.githubusercontent.com/EzraBecker-Geo/Personal-Site/main/MetaAndesite/burner1.jpg"
+         alt="Meta andesite block, shaped" 
+         style="width:30%; max-width:300px;">
+    <img src="https://raw.githubusercontent.com/EzraBecker-Geo/Personal-Site/main/MetaAndesite/burner2.jpg"
+         alt="Meta andesite burner test" 
+         style="width:30%; max-width:300px;">
+</div>
+               
+          <p>
+                   I needed a weight to operate a jack spit (rotisserie) that I designed and built. Instead of purchasing metal stock, I opted to use meta andesite for the project. 
+              However, crafting a rock cylinder with basic tools proved to be a challenging task.
+                </p>      
+     <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+   
+    <img src="https://raw.githubusercontent.com/EzraBecker-Geo/Personal-Site/main/MetaAndesite/weight1.jpg"
+         alt="Rock weight" 
+         style="width:50%; max-width:300px;">
+    <img src="https://raw.githubusercontent.com/EzraBecker-Geo/Personal-Site/main/MetaAndesite/weight2.jpg"
+         alt="Rock weight finished" 
+         style="width:50%; max-width:300px;">
+</div>
+                <p>
+                    As a tribute to my home state, rich in geological wonders, I carved the shape of North Carolina from this rock. 
+
+                </p>
+               <img src="https://raw.githubusercontent.com/EzraBecker-Geo/Personal-Site/main/MetaAndesite/NC.jpg" 
+                    alt="Network Interpretation" style="width:100%; max-width:500px;">
+                 
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Ezra Becker | <a href="index.html">Back to Portfolio</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>
