@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Network Analysis">
+    <title>The Lithium Mineral Locality Database (LMLD)</title>
+    <style>
+        /* General Reset */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background: #f9f9f9;
+        }
+        h1, h2, h3 {
+            margin: 0;
+            color: #222;
+        }
+        a {
+            color: #0078D4;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+        }
+        header {
+            background: #0078D4;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .content {
+            margin: 40px 0;
+        }
+        .content p {
+            font-size: 1.1em;
+            margin: 20px 0;
+        }
+        footer {
+            margin: 40px 0;
+            font-size: 0.9em;
+            color: #555;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Network Analysis Applied to Subsets of the Lithium Mineral Locality Database</h1>
+            <p>A method of visualizing the relationships of mineral systems</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="content">
+            <h2>About This Project</h2>
+            <p>
+              Networks display data as nodes and represent relationships between them as edges that connect the nodes.
+              We employ three types of networks: unipartite networks, which contain only one type of node; bipartite networks, 
+              which include both primary and secondary nodes; and tripartite networks, which consist of primary, secondary, and tertiary nodes.
+            </p>
+
+            <p>
+                Data was sourced from trusted platforms like <a href="https://www.mindat.org/">Mindat.org</a>
+                and the <a href="https://rruff.info/ima/">Mineral Evolution Database</a>.
+                This database aims to support researchers and industry professionals in exploring lithium systems.
+            </p>
+
+            <h2>Features</h2>
+            <ul>
+                <li>33 fields covering a wide range of data categories</li>
+                <li>Detailed geographic distribution of lithium minerals</li>
+                <li>Cross-referenced data with public mineralogy databases</li>
+            </ul>
+
+            <h2>Project Repository</h2>
+            <p>
+                You can download the full database from the EarthChem Repository:  <a href="https://doi.org/10.60520/IEDA/113329">The Lithium Mineral Locality Database</a> 
+                
+                The database is also available as html tables below:
+                <h2>Database Tables</h2>
+                
+                <a href="Lithium Mineral Localities.html">The Lithium Mineral Locality Database</a>.
+                
+                <a href="Mineral Appendix.html">Mineral Appendix</a>.
+                
+                <a href="Paragenetic Mode Appendix.html">Paragentic Mode Appendix</a>.
+            </p>
+
+            <h2>Gallery</h2>
+            <p>
+                Here are sample visualizations and insights generated from the database:
+            </p>
+            <div>
+                <img src="images/map.png" alt="Lithium Mineral Localities Map" style="width:100%; max-width:500px; margin-bottom:20px;">
+                <img src="images/data_analysis.png" alt="Data Analysis Chart" style="width:100%; max-width:500px;">
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Ezra Becker | <a href="index.html">Back to Portfolio</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>
